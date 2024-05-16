@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./login&signup/style.css" />
+    <!-- Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <!-------------------------------------------------------------------------->
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <p class="nav_logo">Student Login</p>
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Home</a>
+            <a href="#" class="nav_link">Courses</a>
+            <a href="#" class="nav_link">Dashboard</a>
+            <a href="#" class="nav_link">About</a>
+          </li>
+        </ul>
+        <button class="button" id="formOpen">Log In</button>
+      </nav>
+    </header>
+    <!-------------------------------------------------------------------------->
+    <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close" id="formClose"></i>
+        <!-- Login From -->
+        <div class="form login_form">
+          <div id="logInForm">
+            <h2>Login</h2>
+            <hr />
+            <p>Welcome Back</p>
+            <p class="welcomeMessage">
+              Complete Miles of journy with one step.
+            </p>
+            <!-- Email -->
+            <div class="input_box">
+              <input
+                type="text"
+                placeholder="Email (example@mail.com)"
+                required
+                autocomplete="username"
+                id="logInInputEmail"
+              />
+              <i class="uil uil-envelope-alt email"></i>
+              <span id="loginEmailError">Error</span>
+            </div>
+            <!-- Password -->
+            <div class="input_box">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+                autocomplete="new-password"
+                id="logInInputPassword"
+              />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+              <span id="loginPasswordError">Error</span>
+            </div>
+
+            <button class="button" id="logInNowBtn">Login Now</button>
+
+            <div class="login_signup">
+              Don't have an account? <a href="#" id="signUpLink">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------->
+        <!-- Signup From -->
+        <div class="form signup_form">
+          <div id="signUpForm">
+            <h2>Registration</h2>
+            <hr />
+            <p class="welcomeMessage">Every new friend is a new adventure.</p>
+            <p class="welcomeMessage">Let's get connected.</p>
+            <!-- First Name -->
+            <div class="input_box">
+              <input
+                type="text"
+                placeholder="First Name"
+                id="inputFName"
+                name="FName"
+              />
+              <i class="uil uil-user email"></i>
+              <span id="RegistrationFNameError">Error</span>
+            </div>
+            <!-- Last Name -->
+            <div class="input_box">
+              <input
+                type="text"
+                placeholder="Last Name"
+                id="inputLName"
+                name="LName"
+              />
+              <i class="uil uil-user email"></i>
+              <span id="RegistrationLNameError">Error</span>
+            </div>
+            <!-- Email -->
+            <div class="input_box">
+              <input
+                type="text"
+                placeholder="Email (example@mail.com)"
+                id="inputEmail"
+                name="Email"
+                autocomplete="username"
+              />
+              <i class="uil uil-envelope-alt email"></i>
+              <span id="RegistrationEmailError">Error</span>
+            </div>
+            <!-- Password -->
+            <div class="input_box">
+              <input
+                type="password"
+                placeholder="Create password"
+                id="inputPass"
+                name="Password"
+                autocomplete="new-password"
+              />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+              <span id="RegistPasswordError">Error</span>
+            </div>
+            <!-- Confirm Password -->
+            <div class="input_box">
+              <input
+                type="password"
+                placeholder="Confirm password"
+                id="inputConfirmPass"
+                name="confirmPassword"
+                autocomplete="new-password"
+              />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+              <span id="RegistConfimPassError">Error</span>
+            </div>
+            <button class="button" id="signUpNowBtn">Sign Up Now</button>
+            <button class="button" id="reset">Reset</button>
+
+            <div class="login_signup">
+              Already have an account? <a href="#" id="logInLink">Log In</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./login&signup/script.js"></script>
+  </body>
+</html>

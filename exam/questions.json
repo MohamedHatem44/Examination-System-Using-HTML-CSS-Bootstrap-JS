@@ -1,0 +1,82 @@
+[
+  {
+    "title": "The property in CSS used to change the background color of an element is",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "All of the above",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "The CSS property used to control the element's font-size is",
+    "answer_1": "text-style",
+    "answer_2": "text-size",
+    "answer_3": "font-size",
+    "answer_4": "None of the above",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How Can We Make Element Text Bold?",
+    "answer_1": "Putting It Inside <b> Tag",
+    "answer_2": "Putting It Inside <strong> Tag",
+    "answer_3": "Customizing It With Font-Weight Property In CSS",
+    "answer_4": "All Answers Is Right",
+    "right_answer": "All Answers Is Right"
+  },
+  {
+    "title": "The CSS property used to specify the transparency of an element is",
+    "answer_1": "Hover",
+    "answer_2": "opacity",
+    "answer_3": "clearfix",
+    "answer_4": "overlay",
+    "right_answer": "opacity"
+  },
+  {
+    "title": "How Can We Include External Page Inside Our HTML Page?",
+    "answer_1": "By Using Include in HTML",
+    "answer_2": "By Using Load In HTML",
+    "answer_3": "By Using iFrame Tag",
+    "answer_4": "All Solutions Is Wrong",
+    "right_answer": "By Using iFrame Tag"
+  },
+  {
+    "title": "What Is The Tag That Not Exists in HTML?",
+    "answer_1": "<object>",
+    "answer_2": "<basefont>",
+    "answer_3": "<abbr>",
+    "answer_4": "All Tags Is Exists in HTML",
+    "right_answer": "All Tags Is Exists in HTML"
+  },
+  {
+    "title": "How We Specify Document Type Of HTML5 Page?",
+    "answer_1": "<DOCTYPE html>",
+    "answer_2": "<DOCTYPE html5>",
+    "answer_3": "<!DOCTYPE html5>",
+    "answer_4": "<!DOCTYPE html>",
+    "right_answer": "<!DOCTYPE html>"
+  },
+  {
+    "title": "What Is The Element Thats Not Exists in HTML5 Semantics?",
+    "answer_1": "<article>",
+    "answer_2": "<section>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<aside>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "Which of the following CSS property is used to set the background image of an element?",
+    "answer_1": "background-attachment'>",
+    "answer_2": "background-image",
+    "answer_3": "background-color",
+    "answer_4": "None of the above",
+    "right_answer": "background-image"
+  },
+  {
+    "title": "Which HTML tag is used to declare internal CSS?",
+    "answer_1": "<style>",
+    "answer_2": "<link>",
+    "answer_3": "<script>",
+    "answer_4": "None of the above",
+    "right_answer": "<style>"
+  }
+]

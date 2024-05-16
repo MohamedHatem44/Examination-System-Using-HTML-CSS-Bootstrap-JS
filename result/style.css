@@ -1,0 +1,87 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  height: 55px;
+  width: 100%;
+  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+}
+.nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.nav_logo,
+.button {
+  color: #fff;
+}
+.nav_logo {
+  font-size: 28px;
+}
+.button {
+  padding: 6px 20px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.button:hover {
+  transform: scale(0.97);
+  color: #000000;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(136, 129, 129, 0.1);
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  width: 35%;
+}
+.container .userRes {
+  margin: 20px 0;
+}
+.userRes:not(:last-child) {
+  margin-bottom: 50px;
+}
+.imgContainer {
+  width: 45%;
+}
+.imgContainer img {
+  width: 95%;
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+  .container {
+    margin-top: 30px;
+  }
+  .container,
+  .imgContainer {
+    width: 100%;
+    flex-grow: 0;
+  }
+}
